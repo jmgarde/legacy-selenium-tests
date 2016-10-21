@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://app-g.marketo.com/" />
+<title>export_leads_2</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">export_leads_2</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/homepage/login#SL540379B2LA1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=loginUsername</td>
+	<td>liveperson@level-interactive.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=loginPassword</td>
+	<td>p@ssword1</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=loginButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//*[@id=&quot;tnLeadDb&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//*[@id=&quot;tnLeadDb&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//span[text() = &quot;Lead Database&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//span[text() = &quot;Lead Database&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//span[text() = &quot;Level-InteractiveSmartList&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//span[text() = &quot;Level-InteractiveSmartList&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//*[@id=&quot;canvas__cp_ldbCanvasSmartListDef&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//*[@id=&quot;canvas__cp_ldbCanvasSmartListDef&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//*[@placeholder=&quot;Enter date...&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//*[@placeholder=&quot;Enter date...&quot;]</td>
+	<td>javascript{'0'+ ((new Date()).getMonth()+1)+'/'+((new Date()).getDate()-1)+'/'+(new Date()).getFullYear()}</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//*[@id=&quot;canvas__cp_ldbCanvasLeadList&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//*[@id=&quot;canvas__cp_ldbCanvasLeadList&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>20000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>css=button.x-btn-text.mkiExcel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=button.x-btn-text.mkiOk</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>css=button.x-btn-text.mkiOk</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>25000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//b[contains(text(), 'Download now')]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

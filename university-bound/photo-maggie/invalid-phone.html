@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://learn.university-bound.com/" />
+<title>invalid-phone</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">invalid-phone</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/degrees/photo-maggie/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=NameFirst</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=NameFirst</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=NameLast</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=EMail</td>
+	<td>mail@mail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Phone</td>
+	<td>6561112abc</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=HSGradYear</td>
+	<td>label=2009</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=EDUComplete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=EDUComplete</td>
+	<td>label=GED Recipient</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;GED&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=AddressLine1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=AddressLine1</td>
+	<td>123 Address St.</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=AddressCity</td>
+	<td>City</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=AddressState</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=AddressState</td>
+	<td>label=Delaware</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;DE&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=AddressZip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=AddressZip</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=MilitaryStatus</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=MilitaryStatus</td>
+	<td>label=None</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;None&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=agree1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=input#Phone.error</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=input#Phone.error</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td>50000</td>
+</tr>
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://info.ncu.edu/" />
+<title>step_2_verify</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">step_2_verify</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/General_Original/?LID1=KW&amp;ckm_key=iKYsdeFiwxk&amp;ckm_campaign_id=2071&amp;PN=888-560-1681</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Online Education at a Higher Degree</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextNotPresent</td>
+	<td>404</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Step 1 of 2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=EDUComplete</td>
+	<td>label=Associate's Degree</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=areaOfInterest</td>
+	<td>label=Psychology</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=ball$ctl87</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=select.pf_field_row_bad</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=select.pf_field_row_bad</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Step 2 of 2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>TEST END - STEP 2 CHECK</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

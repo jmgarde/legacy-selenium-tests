@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://learn.art-schools-online.com/" />
+<title>invalid-address</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">invalid-address</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/degrees/sli-design/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=NameFirst</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=NameLast</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=EmailAddress</td>
+	<td>mail@mail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=AddressLine1</td>
+	<td>Street</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=AddressZip</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=submit_first</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=AddressCity</td>
+	<td>City</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=AddressState</td>
+	<td>label=Arkansas</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=HomePhone</td>
+	<td>6561234567</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=EDUComplete</td>
+	<td>label=High School Diploma</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=HSGradYear</td>
+	<td>label=1995</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=MilitaryStatus</td>
+	<td>label=Yes</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=submit_second</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=div.error</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=div.error</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td>50000</td>
+</tr>
+</tbody></table>
+</body>
+</html>

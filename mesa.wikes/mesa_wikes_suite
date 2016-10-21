@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="mesa_wikes_ad.html">mesa_wikes_ad</a></td></tr>
+<tr><td><a href="mesa_wikes_adwords.html">mesa_wikes_adwords</a></td></tr>
+<tr><td><a href="mesa_wikes_bing.html">mesa_wikes_bing</a></td></tr>
+<tr><td><a href="mesa_wikes_clicks.html">mesa_wikes_clicks</a></td></tr>
+<tr><td><a href="mesa_wikes_facebook.html">mesa_wikes_facebook</a></td></tr>
+<tr><td><a href="mesa_wikes_google_display.html">mesa_wikes_google_display</a></td></tr>
+<tr><td><a href="mesa_wikes_mba_ad.html">mesa_wikes_mba_ad</a></td></tr>
+<tr><td><a href="mesa_wikes_mba_adwords.html">mesa_wikes_mba_adwords</a></td></tr>
+<tr><td><a href="mesa_wikes_mba_bing.html">mesa_wikes_mba_bing</a></td></tr>
+<tr><td><a href="mesa_wikes_mba_clicks.html">mesa_wikes_mba_clicks</a></td></tr>
+<tr><td><a href="mesa_wikes_mba_facebook.html">mesa_wikes_mba_facebook</a></td></tr>
+<tr><td><a href="mesa_wikes_mba_google_display.html">mesa_wikes_mba_google_display</a></td></tr>
+</tbody></table>
+</body>
+</html>

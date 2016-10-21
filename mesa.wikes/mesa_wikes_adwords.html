@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://mesa.wilkes.edu/" />
+<title>mesa_wikes_adwords</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">mesa_wikes_adwords</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/?oid=2474</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;NameFirst&quot;]</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;NameLast&quot;]</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;HomePhone&quot;]</td>
+	<td>8888484444</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=select.uberror</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=select.uberror</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>NO EDU LEVEL SELECTED</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/?oid=2474</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//select[@name=&quot;EduCompleted&quot;]</td>
+	<td>label=Associate's Degree</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;NameFirst&quot;]</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;NameLast&quot;]</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;HomePhone&quot;]</td>
+	<td>8888484444</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=select.uberror</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=select.uberror</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=EMail</td>
+	<td>test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@id=&quot;zip&quot;]</td>
+	<td>60601</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//select[@name=&quot;AddressState&quot;]</td>
+	<td>label=Illinois</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;AddressLine1&quot;]</td>
+	<td>12 Anyplace</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=input.uberror</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=input.uberror</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;EMail&quot;]</td>
+	<td>test@</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=input.uberror</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=input.uberror</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;EMail&quot;]</td>
+	<td>test@test</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=input.uberror</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=input.uberror</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>INVALID EMAIL</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/?oid=2474</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//select[@name=&quot;EduCompleted&quot;]</td>
+	<td>label=Associate's Degree</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;NameFirst&quot;]</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;NameLast&quot;]</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;HomePhone&quot;]</td>
+	<td>8888484444</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=select.uberror</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=select.uberror</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=EMail</td>
+	<td>test@test.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@id=&quot;zip&quot;]</td>
+	<td>60601</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//select[@name=&quot;AddressState&quot;]</td>
+	<td>label=Illinois</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;AddressLine1&quot;]</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=input.uberror</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=input.uberror</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;AddressLine1&quot;]</td>
+	<td>Address</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=input.uberror</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=input.uberror</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>INVALID ADDRESS</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/?oid=2474</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//select[@name=&quot;EduCompleted&quot;]</td>
+	<td>label=Some College</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;NameFirst&quot;]</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;NameLast&quot;]</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;HomePhone&quot;]</td>
+	<td>8888484444</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=select.uberror</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=select.uberror</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=EMail</td>
+	<td>test@test.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@id=&quot;zip&quot;]</td>
+	<td>60601</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//select[@name=&quot;AddressState&quot;]</td>
+	<td>label=Illinois</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;AddressLine1&quot;]</td>
+	<td>12 Anyplace</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=input.uberror</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=input.uberror</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>Wilkes University would like to thank you for your interest</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>SUBMIT - UNDERGRAD</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/?oid=2474</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//select[@name=&quot;EduCompleted&quot;]</td>
+	<td>label=Bachelor's Degree</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;NameFirst&quot;]</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;NameLast&quot;]</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;HomePhone&quot;]</td>
+	<td>8888484444</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=select.uberror</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=select.uberror</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=EMail</td>
+	<td>test@test.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@id=&quot;zip&quot;]</td>
+	<td>60601</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//select[@name=&quot;AddressState&quot;]</td>
+	<td>label=Illinois</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name=&quot;AddressLine1&quot;]</td>
+	<td>12 Anyplace</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=input.uberror</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=input.uberror</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>Wilkes University would like to thank you for your interest</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>SUBMIT - GRAD</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

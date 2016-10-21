@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://art-schools-online.com/" />
+<title>full_submit_grad</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">full_submit_grad</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/grants/photography/?oid=993&amp;lid1=AIO_photo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>The Art Institute of Pittsburgh - Online Division</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>STEP 1 OF 2: </td>
+	<td></td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=NameFirst</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=NameLast</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=EmailAddress</td>
+	<td>test@test.com</td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=HomePhone</td>
+	<td>8888888888</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=input.uberror</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=input.uberror</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>STEP 2 OF 2: </td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=AddressLine1</td>
+	<td>512 Anyplace</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=AddressLine2</td>
+	<td>#58</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=AddressCity</td>
+	<td>Compton</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=AddressState</td>
+	<td>label=Illinois</td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>css=input[name='AddressZip']</td>
+	<td>60601</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=EDUComplete</td>
+	<td>label=Bachelors Degree</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=HSGradYear</td>
+	<td>label=2001</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=MilitaryStatus</td>
+	<td>label=None</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=agree1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=agree2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=input.uberror</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=input.uberror</td>
+	<td>11</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Thank You for Entering!</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>TEST END - SUBMIT UNDERGRAD</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://healthcare-schools-online.com/" />
+<title>full_submit_undergrad</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">full_submit_undergrad</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/scholarships</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=NameFirst</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=NameLast</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Phone</td>
+	<td>9899999999</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=EMail</td>
+	<td>test@test.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=AddressLine1</td>
+	<td>123 Address</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=AddressCity</td>
+	<td>Anywhere</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=AddressState</td>
+	<td>label=Texas</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=AddressZip</td>
+	<td>77487</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=HSGradYear</td>
+	<td>label=2004</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=EDUComplete</td>
+	<td>label=Some College</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=ScholarshipForm_Submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>id=div.formErrorContent</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>id=div.formErrorContent</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Learn more about Argosy University's online programs!</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=PagePrograms</td>
+	<td>label=Criminal Justice-Forensic Psychology</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=policy</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=SchoolForm_Submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Thank You</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td>50000</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

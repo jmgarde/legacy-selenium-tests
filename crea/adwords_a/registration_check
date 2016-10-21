@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://courses.lecrea.com/" />
+<title>registration_check</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">registration_check</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/?v=a&amp;oid=2511&amp;lid1={keyword}&amp;lid2=G&amp;lid3={matchtype}&amp;lid4={creative}&amp;lid5={ifmobile:mobile}&amp;lid6={adposition}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=register1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=register1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertVisible</td>
+	<td>css=div#innerpop</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Please let us know a little more about you so that </td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=exitpop</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=register2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=register2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertVisible</td>
+	<td>css=div#innerpop</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Please let us know a little more about you so that </td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=exitpop</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>REGISTRATION FORM</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

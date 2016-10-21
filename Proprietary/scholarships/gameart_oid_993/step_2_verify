@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://learn.art-schools-online.com/" />
+<title>step_2_verify</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">step_2_verify</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/scholarships/gameart/?oid=993&amp;lid1=AIO_GAD</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>The Art Institute of Pittsburgh - Online Division</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>STEP 1 OF 2: </td>
+	<td></td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=NameFirst</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=NameLast</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=EmailAddress</td>
+	<td>test@test.com</td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=HomePhone</td>
+	<td>8888888888</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img.next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=input.uberror</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=input.uberror</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>STEP 2 OF 2: </td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>TEST END - STEP 2 CHECK</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

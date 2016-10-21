@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://info.ncu.edu/" />
+<title>email_masking_test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">email_masking_test</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/Psychology_Testing/?LID1=KW&amp;ckm_key=iKYsdeFiwxk&amp;ckm_campaign_id=2071&amp;PN=888-560-1681</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=EDUComplete</td>
+	<td>label=Associate's Degree</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=areaOfInterest</td>
+	<td>label=Psychology</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=ball$ctl87</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=select.pf_field_row_bad</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=select.pf_field_row_bad</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Step 2 of 2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=NameFirst</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=NameLast</td>
+	<td>ckmtest</td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>css=input#AddressZip</td>
+	<td>60601</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>css=select#AddressState</td>
+	<td>label=Illinois</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input#EMail</td>
+	<td>test</td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>css=input#Phone</td>
+	<td>8888888888</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=ball$ctl87</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=input.pf_field_row_bad</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=input.pf_field_row_bad</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input#EMail</td>
+	<td>test@</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=ball$ctl87</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertCssCount</td>
+	<td>css=input.pf_field_row_bad</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>assertNotCssCount</td>
+	<td>css=input.pf_field_row_bad</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input#EMail</td>
+	<td>test@test</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>TEST END-EMAIL CHECK</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
